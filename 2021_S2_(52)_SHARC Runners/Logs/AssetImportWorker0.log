@@ -567,3 +567,10 @@ Received Import Request.
   path: Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude
   artifactKey: Guid(40248927e767fcc40acdf26796daffc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude using Guid(40248927e767fcc40acdf26796daffc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e7eb1d2e7486e96099af8d9ee2758c') in 0.014237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1702.521335 seconds.
+  path: Assets/unity.unity
+  artifactKey: Guid(d7f4cff3b7cf478498774c14d0996695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unity.unity using Guid(d7f4cff3b7cf478498774c14d0996695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32df92880b6dc601b0f264a58f3bf12f') in 0.015119 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
