@@ -1,0 +1,442 @@
+Using pre-set license
+Pro License: NO
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.1.16f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/liamking31/Downloads/GitHub/2021_S2_-52-_SHARC-Runners/2021_S2_-52-_SHARC-Runners/2021_S2_(52)_SHARC Runners
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52246
+Successfully changed project path to: /Users/liamking31/Downloads/GitHub/2021_S2_-52-_SHARC-Runners/2021_S2_-52-_SHARC-Runners/2021_S2_(52)_SHARC Runners
+/Users/liamking31/Downloads/GitHub/2021_S2_-52-_SHARC-Runners/2021_S2_-52-_SHARC-Runners/2021_S2_(52)_SHARC Runners
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 181.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.16f1 (5fa502fca597)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.16f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/liamking31/Downloads/GitHub/2021_S2_-52-_SHARC-Runners/2021_S2_-52-_SHARC-Runners/2021_S2_(52)_SHARC Runners/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2021-08-20 13:13:57.546 Unity[4999:115631] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6000 (low power)
+2021-08-20 13:13:57.546 Unity[4999:115631] Metal devices available: 1
+2021-08-20 13:13:57.546 Unity[4999:115631] 0: Intel(R) Iris(TM) Graphics 6000 (low power)
+2021-08-20 13:13:57.549 Unity[4999:115631] Using device Intel(R) Iris(TM) Graphics 6000 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6000
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.16f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.1.16f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56999
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002653 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 144.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 11.401 seconds
+Domain Reload Profiling:
+	ReloadAssembly (11401ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1164ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (479ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (500ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (145ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (271ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.020315 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/liamking31/Downloads/GitHub/2021_S2_-52-_SHARC-Runners/2021_S2_-52-_SHARC-Runners/2021_S2_(52)_SHARC Runners/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/liamking31/Downloads/GitHub/2021_S2_-52-_SHARC-Runners/2021_S2_-52-_SHARC-Runners/2021_S2_(52)_SHARC Runners/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.261 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3263ms)
+		BeginReloadAssembly (519ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (2499ms)
+			LoadAssemblies (360ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1065ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (861ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (714ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.16f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2948 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 217.6 MB.
+System memory in use after: 217.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3391.
+Total: 5.649351 ms (FindLiveObjects: 0.596410 ms CreateObjectMapping: 0.244111 ms MarkObjects: 4.731339 ms  DeleteObjects: 0.074732 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256
+  artifactKey: Guid(46248c94df92244239096b4cae071a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256 using Guid(46248c94df92244239096b4cae071a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c7555cd018801bdab9cfb6f1d3554d') in 0.010151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 48.png
+  artifactKey: Guid(005a8769668324db69bf3daec9c52832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 48.png using Guid(005a8769668324db69bf3daec9c52832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35fec506b2f742123bf6f21b0557bd1') in 1.213940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001492 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 11.png
+  artifactKey: Guid(6d75e37b78a9f487697a7048038e18ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 11.png using Guid(6d75e37b78a9f487697a7048038e18ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa0eca1f53eb03af02ac411059ccb51') in 0.030375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000582 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 23.png
+  artifactKey: Guid(4202baffbcb5f4d38ba6b730fdb6a6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 23.png using Guid(4202baffbcb5f4d38ba6b730fdb6a6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d45b7d4a2526c1e868975378e4d05b0') in 0.030971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 39.png
+  artifactKey: Guid(0c87122d3d51f42ca82e6cc29fcbb751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 39.png using Guid(0c87122d3d51f42ca82e6cc29fcbb751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64300e548b845a4042eda2aa48de30f') in 0.058744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 47.png
+  artifactKey: Guid(6dfecbb678a2548478a88cae7a6f1374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 47.png using Guid(6dfecbb678a2548478a88cae7a6f1374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70d443e56c50155c2366e5ed4e22642') in 0.038580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 14.png
+  artifactKey: Guid(f8d25353ba57241d1a7ef65e776d9dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 14.png using Guid(f8d25353ba57241d1a7ef65e776d9dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31d782ea2727ea38d87fb5e05e5b137') in 0.017987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002644 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 29.png
+  artifactKey: Guid(1c48df40f2189407580d9743d46b2276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 29.png using Guid(1c48df40f2189407580d9743d46b2276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45fe91020d37560c20067907732101c6') in 0.023858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 7.png
+  artifactKey: Guid(8a9dafc7ddeeb4c679f103f5014c5ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 7.png using Guid(8a9dafc7ddeeb4c679f103f5014c5ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0adb035e4d402f5ddf7d21592d2b0e0d') in 0.023297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 8.png
+  artifactKey: Guid(5f76e06f84da9456e9f3227c2a8ceecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 8.png using Guid(5f76e06f84da9456e9f3227c2a8ceecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5140cdbad1531d64a7a5e63301900c') in 0.024215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 19.png
+  artifactKey: Guid(a76e16e7f5c0c41e58f67df95de411b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 19.png using Guid(a76e16e7f5c0c41e58f67df95de411b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad66838e0d3057d7278c7f79f8dfb47') in 0.023671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000957 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 1.png
+  artifactKey: Guid(f6a4473c05b304aecb0f0c38d6276760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 1.png using Guid(f6a4473c05b304aecb0f0c38d6276760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416f2b499474b9eeb40b2286ff6872fa') in 0.017881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 9.png
+  artifactKey: Guid(20c7288f52dca4a49beb537806130b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 9.png using Guid(20c7288f52dca4a49beb537806130b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea05029bbe31558a7aa1f9ce3fcd694') in 0.021210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001520 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 31.png
+  artifactKey: Guid(1bf7f3924045b41efa00e1c140d26895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 31.png using Guid(1bf7f3924045b41efa00e1c140d26895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8851467fa7897ecd007c1ef1c25aea') in 0.016920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 36.png
+  artifactKey: Guid(09a692b725aa44e25850c1c0bc5b0dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 36.png using Guid(09a692b725aa44e25850c1c0bc5b0dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11de1698890e40c755cd9140c25d23c') in 0.022140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 49.png
+  artifactKey: Guid(448ace186bd854e3e8e66b2c30c592d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 49.png using Guid(448ace186bd854e3e8e66b2c30c592d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006b8221d206e0253b5270b2b8a2a441') in 0.027252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 42.png
+  artifactKey: Guid(b7b6688a3567f4ed590a25039a4994a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 42.png using Guid(b7b6688a3567f4ed590a25039a4994a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9b5ae094105bb2c538e2de3cdf6cf7') in 0.015580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 15.png
+  artifactKey: Guid(f461c4ef0c5dd416db9642cd261cd8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 15.png using Guid(f461c4ef0c5dd416db9642cd261cd8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7a8047ebc6f0ef9d9e48c56f21b7f0') in 0.026279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 27.png
+  artifactKey: Guid(df0ba46f49a00498fbfa176cd39cc7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 27.png using Guid(df0ba46f49a00498fbfa176cd39cc7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e84fdac1894ca52764479b5afd5e420') in 0.018184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 12.png
+  artifactKey: Guid(d8e412871ad63444791a1402ba0e173d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 12.png using Guid(d8e412871ad63444791a1402ba0e173d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a83dd545f507ec7046a5715ecd1c83b') in 0.025018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 18.png
+  artifactKey: Guid(7f34341a7899043f6aa0b0e339c4e195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 18.png using Guid(7f34341a7899043f6aa0b0e339c4e195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e65d99a69d54b75d16880df11e6572') in 0.018767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/2D collection of magic crystals/Sprites
+  artifactKey: Guid(5b5e08de10f6440caa44073844c5a6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites using Guid(5b5e08de10f6440caa44073844c5a6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f1c088fe59d472d72f9bc170c343af') in 0.003188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 10.png
+  artifactKey: Guid(c05becdca8f624e4399d502f23d667ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 10.png using Guid(c05becdca8f624e4399d502f23d667ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c21d1fe0d3314ffe5ec823d6ec9725') in 0.024954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 16.png
+  artifactKey: Guid(e263148602edd434b985f84178ac78ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 16.png using Guid(e263148602edd434b985f84178ac78ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdca6b50cb1bb6a0a42ea1f19d777be4') in 0.017667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 32.png
+  artifactKey: Guid(19e1eb8c4a41649f38432af2fd54971f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 32.png using Guid(19e1eb8c4a41649f38432af2fd54971f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c37a7f2691ed0e40b4ec0cad171594') in 0.022109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 24.png
+  artifactKey: Guid(d66385a11bd0a4d4dbafb19704fa619b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 24.png using Guid(d66385a11bd0a4d4dbafb19704fa619b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac391afceae58b8d15e436db6cc53977') in 0.023321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 4.png
+  artifactKey: Guid(7727c5c90963f45daa32458403339c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 4.png using Guid(7727c5c90963f45daa32458403339c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dfb817d202ca5b5d0985a7dac261508') in 0.019291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 6.png
+  artifactKey: Guid(b7d849b27201942f5b997be30b043c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 6.png using Guid(b7d849b27201942f5b997be30b043c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cebcf580412ca0a7b6f6038181c1574a') in 0.020283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000579 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 2.png
+  artifactKey: Guid(7e2e11f1dec944d1daa5a426d36675ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 2.png using Guid(7e2e11f1dec944d1daa5a426d36675ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc7495dac35af1a752fde9d5e522fe8') in 0.022001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 21.png
+  artifactKey: Guid(54d39504952fd4d4684a5931ccea198e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 21.png using Guid(54d39504952fd4d4684a5931ccea198e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220f310e17431b7e0238eab8aa482122') in 0.015955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 40.png
+  artifactKey: Guid(9a05fcecb01a04aa5b6119229a6bf832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 40.png using Guid(9a05fcecb01a04aa5b6119229a6bf832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909ed436ca7a4c0e017f87e6c64c94b8') in 0.030022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 13.png
+  artifactKey: Guid(361fe8998eee044eeb2e90d9ccc5528d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 13.png using Guid(361fe8998eee044eeb2e90d9ccc5528d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5b288d164c4f2517d264fea8e4e9cd') in 0.015119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 41.png
+  artifactKey: Guid(aa710a975d8974adb94c4c1b5e71af90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 41.png using Guid(aa710a975d8974adb94c4c1b5e71af90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5145fe7d7ffb548ca57e4b9ad4ea0b') in 0.019774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 38.png
+  artifactKey: Guid(5de21f7ad4ddf4cc990cdac695055003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 38.png using Guid(5de21f7ad4ddf4cc990cdac695055003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3971df4a00d173f3641e809b436c99') in 0.017201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow
+  artifactKey: Guid(b3af381598bc04f64a99753a98ec6258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow using Guid(b3af381598bc04f64a99753a98ec6258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae18a25f6569232ee1b0940bea934b57') in 0.002031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 3.png
+  artifactKey: Guid(0a97b1a26dc9d407b8aa78269d2b3ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 3.png using Guid(0a97b1a26dc9d407b8aa78269d2b3ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df73f57aef2d51704043779256f68e5') in 0.025846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 5.png
+  artifactKey: Guid(64d3a7d8f3f0d4eef8e49ebb05c58806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 5.png using Guid(64d3a7d8f3f0d4eef8e49ebb05c58806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1e0d7753ed727ed7e570e235ad9a76') in 0.016564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 28.png
+  artifactKey: Guid(5e998a4c1c2dd44dfb335900759a77f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 28.png using Guid(5e998a4c1c2dd44dfb335900759a77f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20e8e70ac60041e97509d973b7ab77b') in 0.022333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 35.png
+  artifactKey: Guid(6437017acbdcc44b79d76f4f73537084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 35.png using Guid(6437017acbdcc44b79d76f4f73537084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149806c9eca72bc421f97456147c38f8') in 0.014563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 34.png
+  artifactKey: Guid(a27c1c14e07254ea0aee27987a1617db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 34.png using Guid(a27c1c14e07254ea0aee27987a1617db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639bfb528f921063c471886235992a1b') in 0.015887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000591 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 30.png
+  artifactKey: Guid(87b53ebe67c50407ba36a4ed0047fa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 30.png using Guid(87b53ebe67c50407ba36a4ed0047fa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b936d1c50c55f07aef86f32a64e16dee') in 0.020075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 45.png
+  artifactKey: Guid(920369e0bf2de4a3490f634c74bb36aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 45.png using Guid(920369e0bf2de4a3490f634c74bb36aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6456f359f1b4fe4e1c59a8f65f4df5') in 0.016094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 25.png
+  artifactKey: Guid(30b2349dc18d4411cabcf5ae1f571280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 25.png using Guid(30b2349dc18d4411cabcf5ae1f571280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1500cbf5fa69c76b3a2899c1f5a3bd39') in 0.021087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 46.png
+  artifactKey: Guid(846a0cc1b54d04aaf9dc26fb16928c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 46.png using Guid(846a0cc1b54d04aaf9dc26fb16928c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7795be9eb5b4003554b1640fe8c5484') in 0.017330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 44.png
+  artifactKey: Guid(805e180b9fb904b47a105972dea54813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 44.png using Guid(805e180b9fb904b47a105972dea54813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a45f4db6bc839b7b6d80cfc2cac934') in 0.016188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 37.png
+  artifactKey: Guid(4df9a04414f7b4fa59ab115cb4ea3ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 37.png using Guid(4df9a04414f7b4fa59ab115cb4ea3ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7507163601c78dc15d9465f50f8c5eb0') in 0.023307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 17.png
+  artifactKey: Guid(35c9043e4190f413ea4c0ea1d4aa52d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 17.png using Guid(35c9043e4190f413ea4c0ea1d4aa52d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba76eef92c1320a4d40888e3abec47e') in 0.015571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 22.png
+  artifactKey: Guid(9e5e6356ce26a46f9a7a34f2a2e67ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 22.png using Guid(9e5e6356ce26a46f9a7a34f2a2e67ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21badbca80c6e655a897a45d2e461221') in 0.022346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 20.png
+  artifactKey: Guid(82b9bb1e9124143e3ac09cd348bd373f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 20.png using Guid(82b9bb1e9124143e3ac09cd348bd373f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba9bd55e6f34ebbe86046b3a1ac2b2a') in 0.017327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 33.png
+  artifactKey: Guid(2bd1208b383454197934d40242963a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 33.png using Guid(2bd1208b383454197934d40242963a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64b745bee5d85355b14b0f13d41f446') in 0.018712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 26.png
+  artifactKey: Guid(82d5ce1515ea14b058f7a9074e6d2229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 26.png using Guid(82d5ce1515ea14b058f7a9074e6d2229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c6aa181735379c943a930d54f88857') in 0.021731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 43.png
+  artifactKey: Guid(3c2849bc6cc554328820d670e34cd868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D collection of magic crystals/Sprites/no glow/256/magic crystals 43.png using Guid(3c2849bc6cc554328820d670e34cd868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3f98871c6ba9db245c7fd9e8cb481b') in 0.017241 seconds 
