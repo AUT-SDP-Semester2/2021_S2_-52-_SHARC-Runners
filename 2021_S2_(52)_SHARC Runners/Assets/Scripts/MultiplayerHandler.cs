@@ -15,6 +15,8 @@ public class MultiplayerHandler : MonoBehaviourPunCallbacks
 
     [SerializeField] TMP_InputField roomNameInputField;
     [SerializeField] TMP_Text roomNameText;
+    [SerializeField] public Transform roomListContent;
+    [SerializeField] public GameObject roomListItemPrefab;
 
     private void Start()
     {
@@ -98,6 +100,27 @@ public class MultiplayerHandler : MonoBehaviourPunCallbacks
     public override void OnLeftRoom()
     {
         MenuManager.Instance.OpenMenu("Title2");
+    }
+
+    public override void OnRoomListUpdate(List<RoomInfo> roomList)
+    {
+        //destroy all the buttons on screen evertime it is updated
+        foreach (Transform trans in roomListContent)
+        {
+            Destroy(trans.gameObject);
+        }
+        for (int i = 0; i < roomList.Count; i++)
+        {
+            //check to see if a room has been removed, if yes, then dont instantiate it again
+            if (roomList[i].RemovedFromList)
+            {
+                continue;
+            }
+
+            //instantiate the button for how many rooms there are
+            Instantiate(roomListItemPrefab, roomListContent).GetComponent<RoomListItem>().SetUp(roomList[i]);
+        }
+
     }
 
 }
