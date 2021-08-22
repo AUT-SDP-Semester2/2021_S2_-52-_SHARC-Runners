@@ -1,125 +1,125 @@
 Using pre-set license
 Built from '2021.1/release' branch; Version is '2021.1.16f1 (5fa502fca597) revision 6268162'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 8064 MB
+OS: 'Windows 10 Home Single Language; OS build 19043.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16221 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity 2021.1.16f1\Editor\Unity.exe
+F:\Unity\2021.1.16f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Gibbon/OneDrive - AUT University/Desktop/SDP-Project/2021_S2_-52-_SHARC-Runners/2021_S2_(52)_SHARC Runners
+F:/GithubF/2021_S2_-52-_SHARC-Runners/2021_S2_(52)_SHARC Runners
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61518
-Successfully changed project path to: C:/Users/Gibbon/OneDrive - AUT University/Desktop/SDP-Project/2021_S2_-52-_SHARC-Runners/2021_S2_(52)_SHARC Runners
-C:/Users/Gibbon/OneDrive - AUT University/Desktop/SDP-Project/2021_S2_-52-_SHARC-Runners/2021_S2_(52)_SHARC Runners
+51776
+Successfully changed project path to: F:/GithubF/2021_S2_-52-_SHARC-Runners/2021_S2_(52)_SHARC Runners
+F:/GithubF/2021_S2_-52-_SHARC-Runners/2021_S2_(52)_SHARC Runners
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 113.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 82.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.16f1 (5fa502fca597)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Gibbon/OneDrive - AUT University/Desktop/SDP-Project/2021_S2_-52-_SHARC-Runners/2021_S2_(52)_SHARC Runners/Assets
+[Subsystems] Discovering subsystems at path F:/Unity/2021.1.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/GithubF/2021_S2_-52-_SHARC-Runners/2021_S2_(52)_SHARC Runners/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x2188)
+    Renderer: NVIDIA GeForce GTX 1650 with Max-Q Design (ID=0x1f91)
     Vendor:   NVIDIA
-    VRAM:     3962 MB
-    Driver:   27.21.14.5671
+    VRAM:     3964 MB
+    Driver:   26.21.14.3184
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity 2021.1.16f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity 2021.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity 2021.1.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Mono path[0] = 'F:/Unity/2021.1.16f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Unity/2021.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'F:/Unity/2021.1.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity 2021.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002355 seconds.
+Register platform support module: F:/Unity/2021.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000991 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 101.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 84.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.568 seconds
+- Completed reload, in  1.134 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1568ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (1134ms)
+		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (581ms)
-			LoadAssemblies (97ms)
+		EndReloadAssembly (530ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (227ms)
+			SetupTypeCache (195ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (264ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (251ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (101ms)
+				RefreshPlugins (84ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (120ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009065 seconds.
+Registered in 0.025308 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Gibbon\OneDrive - AUT University\Desktop\SDP-Project\2021_S2_-52-_SHARC-Runners\2021_S2_(52)_SHARC Runners\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Gibbon\OneDrive - AUT University\Desktop\SDP-Project\2021_S2_-52-_SHARC-Runners\2021_S2_(52)_SHARC Runners\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image F:\GithubF\2021_S2_-52-_SHARC-Runners\2021_S2_(52)_SHARC Runners\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\GithubF\2021_S2_-52-_SHARC-Runners\2021_S2_(52)_SHARC Runners\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.492 seconds
+- Completed reload, in  1.357 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1492ms)
-		BeginReloadAssembly (195ms)
+	ReloadAssembly (1358ms)
+		BeginReloadAssembly (190ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1225ms)
-			LoadAssemblies (120ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1109ms)
+			LoadAssemblies (126ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (425ms)
+			SetupTypeCache (366ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (513ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (479ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (393ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (396ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2948 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 109.0 MB.
-System memory in use after: 109.2 MB.
+System memory in use before: 105.6 MB.
+System memory in use after: 105.8 MB.
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3391.
-Total: 4.378600 ms (FindLiveObjects: 0.225900 ms CreateObjectMapping: 0.153500 ms MarkObjects: 3.921500 ms  DeleteObjects: 0.076500 ms)
+Total: 3.658200 ms (FindLiveObjects: 0.219000 ms CreateObjectMapping: 0.103900 ms MarkObjects: 3.250200 ms  DeleteObjects: 0.084400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,79 +133,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/2D collection of magic crystals/Sprites/EPS
-  artifactKey: Guid(224a7db33f92b491ca491d6d8205e5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D collection of magic crystals/Sprites/EPS using Guid(224a7db33f92b491ca491d6d8205e5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7249f07db5f223ecedb9d6c3694ce0') in 0.007480 seconds 
+  path: Assets/Editor
+  artifactKey: Guid(d98ad1674ee8d5040ad22d07feddcab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor using Guid(d98ad1674ee8d5040ad22d07feddcab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98a7d548918ff83c07a5ca063645fba') in 0.004974 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/2D collection of magic crystals
-  artifactKey: Guid(a4102eb6a531e4a4c9bcd51a43853acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D collection of magic crystals using Guid(a4102eb6a531e4a4c9bcd51a43853acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308d3ec8b61a5cdf155eb7ad0e479af9') in 0.003612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000432 seconds.
-  path: Assets/2D collection of magic crystals/Sprites
-  artifactKey: Guid(5b5e08de10f6440caa44073844c5a6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D collection of magic crystals/Sprites using Guid(5b5e08de10f6440caa44073844c5a6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66cae138184df430b030ba5a10d5fc3') in 0.003619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/2D collection of magic crystals/Sprites/EPS/crystals no glow.eps
-  artifactKey: Guid(d7642e400d9f744c989e1d3225af7d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D collection of magic crystals/Sprites/EPS/crystals no glow.eps using Guid(d7642e400d9f744c989e1d3225af7d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89308cd7191fff144d291c8f547d9deb') in 0.032556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.542854 seconds.
-  path: Assets/2D collection of magic crystals/Sprites/no glow
-  artifactKey: Guid(b3af381598bc04f64a99753a98ec6258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D collection of magic crystals/Sprites/no glow using Guid(b3af381598bc04f64a99753a98ec6258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df4781efec9f73f78a9d6e4eac39075') in 0.003291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.779986 seconds.
-  path: Assets/2D collection of magic crystals/Sprites/no glow/512
-  artifactKey: Guid(f1fa46d2c599b4e4fa92aa226707317c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D collection of magic crystals/Sprites/no glow/512 using Guid(f1fa46d2c599b4e4fa92aa226707317c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656a2e3cf3bfd7eb13fd2ab2ef2aebcf') in 0.004491 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 91.904196 seconds.
-  path: Assets/2D collection of magic crystals/Sprites/no glow/512/magic crystals 2.png
-  artifactKey: Guid(d1227f5f1cdb345738cab3b1453f353f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D collection of magic crystals/Sprites/no glow/512/magic crystals 2.png using Guid(d1227f5f1cdb345738cab3b1453f353f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c309e341c021823758850d295c7d32e0') in 0.103540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.519255 seconds.
-  path: Assets/2D collection of magic crystals/Sprites/no glow/512/magic crystals 59.png
-  artifactKey: Guid(5ab505ab92a974a189344604d085404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D collection of magic crystals/Sprites/no glow/512/magic crystals 59.png using Guid(5ab505ab92a974a189344604d085404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28f8928156158189efe1469ac575a33') in 0.021263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.613409 seconds.
-  path: Assets/2D collection of magic crystals/Sprites/no glow/512/magic crystals 66.png
-  artifactKey: Guid(60e973d4aa3624be6be2e8528b3428ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D collection of magic crystals/Sprites/no glow/512/magic crystals 66.png using Guid(60e973d4aa3624be6be2e8528b3428ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce8e1d3a41a5a5b1320ed7612e76438') in 0.023451 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.351339 seconds.
-  path: Assets/2D collection of magic crystals/Sprites/no glow/512/magic crystals 74.png
-  artifactKey: Guid(bf594af6bc5454d709018a4b1b4b710b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D collection of magic crystals/Sprites/no glow/512/magic crystals 74.png using Guid(bf594af6bc5454d709018a4b1b4b710b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245ffcaea10407f54b4c7457db7aab36') in 0.016063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.143318 seconds.
-  path: Assets/2D collection of magic crystals/Sprites/no glow/512/magic crystals 1.png
-  artifactKey: Guid(c086bb1dd2da44a1dbc356de12f61a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D collection of magic crystals/Sprites/no glow/512/magic crystals 1.png using Guid(c086bb1dd2da44a1dbc356de12f61a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195287af3a459df985201550dabbb3c8') in 0.023153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.274904 seconds.
-  path: Assets/2D collection of magic crystals/Sprites/no glow/512/magic crystals 9.png
-  artifactKey: Guid(16f474144771a4d00b992f1de0c605a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D collection of magic crystals/Sprites/no glow/512/magic crystals 9.png using Guid(16f474144771a4d00b992f1de0c605a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e772ddbc4b6cf130b2558f30a7a6bf8') in 0.022154 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.400671 seconds.
-  path: Assets/2D collection of magic crystals/Sprites/no glow/512/magic crystals 5.png
-  artifactKey: Guid(a12b7989101df406aa9d2c8a3772c6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D collection of magic crystals/Sprites/no glow/512/magic crystals 5.png using Guid(a12b7989101df406aa9d2c8a3772c6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139714736619e460677551003a6c592e') in 0.032731 seconds 
+  Time since last request: 0.000485 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(bbbc74fad6ed1d243aee6102298f428b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(bbbc74fad6ed1d243aee6102298f428b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5dbec696193c38863c4c41fa5f72bd9') in 0.001892 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
