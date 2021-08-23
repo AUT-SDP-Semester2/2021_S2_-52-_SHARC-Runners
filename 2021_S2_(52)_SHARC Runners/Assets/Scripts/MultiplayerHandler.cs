@@ -12,11 +12,14 @@ using Photon.Realtime;
 
 public class MultiplayerHandler : MonoBehaviourPunCallbacks
 {
+    public static MultiplayerHandler Instance;
 
     [SerializeField] TMP_InputField roomNameInputField;
     [SerializeField] TMP_Text roomNameText;
     [SerializeField] public Transform roomListContent;
     [SerializeField] public GameObject roomListItemPrefab;
+    [SerializeField] public Transform PlayerListContent;
+    [SerializeField] public GameObject PlayerListItemPrefab;
 
     private void Start()
     {
@@ -42,6 +45,8 @@ public class MultiplayerHandler : MonoBehaviourPunCallbacks
     {
         MenuManager.Instance.OpenMenu("Title");
         Debug.Log("Joined Lobby");
+
+        //Fetch the username from database
         PhotonNetwork.NickName = "Player " + Random.Range(0, 1000).ToString("0000");
     }
 
@@ -63,22 +68,22 @@ public class MultiplayerHandler : MonoBehaviourPunCallbacks
         roomNameText.text = PhotonNetwork.CurrentRoom.Name;
 
 
-        //Player[] players = PhotonNetwork.PlayerList;
+        Player[] players = PhotonNetwork.PlayerList;
 
-        ////destroy all the players that existed before joining the room
-        //foreach (Transform child in PlayerListContent)
-        //{
-        //    Destroy(child.gameObject);
-        //}
+        //destroy all the players that existed before joining the room
+        foreach (Transform child in PlayerListContent)
+        {
+            Destroy(child.gameObject);
+        }
 
-        ////create the players
-        //for (int i = 0; i < players.Length; i++)
-        //{
+        //create the players
+        for (int i = 0; i < players.Length; i++)
+        {
 
-        //    Instantiate(PlayerListItemPrefab, PlayerListContent).GetComponent<PlayerListItem>().SetUp(players[i]);
-        //}
+            Instantiate(PlayerListItemPrefab, PlayerListContent).GetComponent<PlayerListItem>().SetUp(players[i]);
+        }
 
-        ////if it is the host, set the button to active
+        //if it is the host, set the button to active
         //startGameBtn.SetActive(PhotonNetwork.IsMasterClient);
     }
 
@@ -86,7 +91,7 @@ public class MultiplayerHandler : MonoBehaviourPunCallbacks
     public override void OnCreateRoomFailed(short returnCode, string message)
     {
         //errorText.text = "Room Creation Failed" + message;
-        MenuManager.Instance.OpenMenu("error");
+        
     }
 
 
@@ -122,5 +127,11 @@ public class MultiplayerHandler : MonoBehaviourPunCallbacks
         }
 
     }
+
+    public override void OnPlayerEnteredRoom(Player newPlayer)
+    {
+        Instantiate(PlayerListItemPrefab, PlayerListContent).GetComponent<PlayerListItem>().SetUp(newPlayer);
+    }
+
 
 }

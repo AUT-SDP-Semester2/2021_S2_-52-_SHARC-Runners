@@ -24,4 +24,12 @@ public class CharacterSelection : MonoBehaviour
         }
         characters[selectedCharacter].SetActive(true);
     }
+
+    public void StartGame()
+    {
+        PlayerPrefs.SetInt("selectedCharacter", selectedCharacter);
+        int test = PlayerPrefs.GetInt("selectedCharacter");
+        Debug.Log("Your selected Character is: " + test);
+
+    }
 }
