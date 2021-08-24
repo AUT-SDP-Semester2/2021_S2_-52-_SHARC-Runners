@@ -9,20 +9,19 @@ public class MeterScript : MonoBehaviour
     public Gradient gradient;
     public Image fill;
 
-    public void SetMaxHealth(float health)
+    public void SetMaxAbility(float ability)
     {
-        slider.maxValue = health;
-        slider.value = health;
+        slider.maxValue = ability;
+        slider.value = ability;
 
         fill.color = gradient.Evaluate (1f) ;
 
     }
 
-    public void SetHealth(float health)
+    public void SetAbility(float ability)
     {
-        slider.value = health;
+        slider.value = ability;
         fill.color = gradient.Evaluate(slider.normalizedValue);
 
     }
-
 }

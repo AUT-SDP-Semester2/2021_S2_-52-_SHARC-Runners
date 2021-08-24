@@ -48,3 +48,15 @@ TagManager:
   - name: Foreground
     uniqueID: 237979559
     locked: 0
+  - name: Mask
+    uniqueID: 2539997153
+    locked: 0
+  - name: Fill
+    uniqueID: 2671163351
+    locked: 0
+  - name: Case
+    uniqueID: 451086809
+    locked: 0
+  - name: Counter
+    uniqueID: 278402889
+    locked: 0
